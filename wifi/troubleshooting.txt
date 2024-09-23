@@ -1,0 +1,2 @@
+sudo iw dev wlan1 set power_save off
+#Desactivar el apagado del adaptador luego por inactividad

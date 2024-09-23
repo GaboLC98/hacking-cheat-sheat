@@ -1,6 +1,11 @@
 	#### Open redcirect
+Esta vulnerabilidad se da cuando el atacante usa funciones de la pagina para redireccionar a un usuario a un servidor malicioso.
+
 ?redirect=XX
-#Paginas con este parametro o similares pueden ser vulnerables a open redirect, lo que genera una consulta del servidor a donde querramos si no esta bien validado.
+?url=XX
+?return=XX
+?go=XX
+#Paginas con estos tipos de parametro pueden ser vulnerables a open redirect, lo que genera una consulta del servidor a donde querramos si no esta bien validado.
 
 ### Redirecto to XSS
 Open redirect puede terminar en un XSS

